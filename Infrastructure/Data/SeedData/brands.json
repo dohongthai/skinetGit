@@ -1,26 +1,25 @@
-[
-  {
-    "Id": 1,
-    "Name": "Angular"
-  },
-  {
-    "Id": 2,
-    "Name": "NetCore"
-  },
-  {
-    "Id": 3,
-    "Name": "VS Code"
-  },
-  {
-    "Id": 4,
-    "Name": "React"
-  },
-  {
-    "Id": 5,
-    "Name": "Typescript"
-  },
-  {
-    "Id": 6,
-    "Name": "Redis"
-  }
+[{
+        "Id": 1,
+        "Name": "VINACARE"
+    },
+    {
+        "Id": 2,
+        "Name": "BMVPHARMA"
+    },
+    {
+        "Id": 3,
+        "Name": "Zuellig Pharma"
+    },
+    {
+        "Id": 4,
+        "Name": "Davinci - Pháp"
+    },
+    {
+        "Id": 5,
+        "Name": "Pharbaco"
+    },
+    {
+        "Id": 6,
+        "Name": "Codupha"
+    }
 ]

@@ -1,18 +1,17 @@
-[
-  {
-    "Id": 1,
-    "Name": "Boards"
-  },
-  {
-    "Id": 2,
-    "Name": "Hats"
-  },
-  {
-    "Id": 3,
-    "Name": "Boots"
-  },
-  {
-    "Id": 4,
-    "Name": "Gloves"
-  }
+[{
+        "Id": 1,
+        "Name": "Thuốc Toa"
+    },
+    {
+        "Id": 2,
+        "Name": "Thực phẩm chức năng"
+    },
+    {
+        "Id": 3,
+        "Name": "Vitamin"
+    },
+    {
+        "Id": 4,
+        "Name": "Thuốc Ngoại"
+    }
 ]
