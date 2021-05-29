@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\skinet\\api\\API.csproj": {}
+    "D:\\skinet\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\skinet\\api\\API.csproj": {
+    "D:\\skinet\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\skinet\\api\\API.csproj",
+        "projectUniqueName": "D:\\skinet\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\skinet\\api\\API.csproj",
+        "projectPath": "D:\\skinet\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\skinet\\api\\obj\\",
+        "outputPath": "D:\\skinet\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -190,6 +190,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.2.4, )"
             }
           },
           "imports": [
