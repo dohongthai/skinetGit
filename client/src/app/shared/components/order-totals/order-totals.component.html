@@ -1,0 +1,23 @@
+<div class="bg-light px-4 py-3 text-uppercase font-weight-bold">
+
+    Thông tin đơn hàng
+
+</div>
+<div class="p-4">
+    <p class="font-italic mb-4">Chi phí vận chuyển sẽ được thêm vào tùy thuộc vào các lựa chọn được thực hiện trong quá trình thanh toán</p>
+    <ul class="list-unstyle mb-4" *ngIf="(basketTotal$ | async) as totals">
+        <li class="d-flex justify-content-between py-3 border-bottom">
+            <strong class="text-muted">Thông tin đơn hàng</strong>
+            <strong>{{(basketTotal$ |async).subtotal|currency}} VND</strong>
+        </li>
+        <li class="d-flex justify-content-between py-3 border-bottom">
+            <strong class="text-muted">Phí vận chuyển và giao hàng</strong>
+            <strong>{{(basketTotal$ |async).shipping|currency}} VND </strong>
+        </li>
+
+        <li class="d-flex justify-content-between py-3 b|currencyorder-bottom">
+            <strong class="text-muted">Tổng</strong>
+            <strong>{{(basketTotal$ |async).total|currency}} VND</strong>
+        </li>
+    </ul>
+</div>
