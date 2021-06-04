@@ -8,6 +8,7 @@ using API.Helpers;
 using API.Middleware;
 using API.Extensions;
 using StackExchange.Redis;
+using Infrastructure.Identity;
 
 namespace API
 {
@@ -33,6 +34,13 @@ namespace API
             services.AddApplicationServices();
             services.AddDbContext<StoreContext>(x =>
             x.UseSqlite(_config.GetConnectionString("DefaultConnection")));
+
+
+            services.AddDbContext<AppIdentityDbContext> ( x =>
+            {
+                x.UseSqlite(_config.GetConnectionString("IdentityConnection"));
+            });
+
             services.AddSingleton<IConnectionMultiplexer>(c =>{
                 var configuration =ConfigurationOptions.Parse(_config.
                 GetConnectionString("Redis"),
@@ -40,6 +48,7 @@ namespace API
                 return ConnectionMultiplexer.Connect(configuration);
             });
             services.AddSwaggerDocumentation();
+            services.AddIdentityServices(_config);
 
             services.AddCors(otp =>
             {
@@ -67,7 +76,9 @@ namespace API
             app.UseRouting();
             app.UseStaticFiles();
             app.UseCors("CorsPolicy");
+            app.UseAuthentication();
             app.UseAuthorization();
+            
             app.UseSwaggerDocumention();
 
             app.UseEndpoints(endpoints =>

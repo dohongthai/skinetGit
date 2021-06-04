@@ -93,3 +93,13 @@ D:\skinet\api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Sec
 D:\skinet\api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 D:\skinet\api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 D:\skinet\api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\skinet\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\skinet\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:\skinet\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\skinet\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\skinet\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\skinet\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\skinet\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\skinet\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\skinet\API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\skinet\API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
