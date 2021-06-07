@@ -10,7 +10,7 @@ namespace API.Dtos
           [EmailAddress]
         public string Email {get;set;}
           [Required]
-          [RegularExpression("(?=^.{6,10}$)(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&amp;*()_+}{&quot;:;'?/&lt;,])(?!.*\\s).*$",ErrorMessage ="mat khau phai co 1 ")]
+          [RegularExpression("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)[a-zA-Z\\d\\W]{8,63}$",ErrorMessage ="Mật không hợp lệ ")]
         public string Password {get;set;}
     }
 }

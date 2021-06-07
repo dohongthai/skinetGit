@@ -92,7 +92,7 @@ namespace API.Controllers
             if (CheckEmailExistAsync(registerDto.Email).Result.Value)
             {
                 return new BadRequestObjectResult(new ApiValidationErrorResponse{Errors = new [] 
-                {"Email dax duoc su dung"}});
+                {"Email đã được sử dụng"}});
             }
             var user = new AppUser
             {
