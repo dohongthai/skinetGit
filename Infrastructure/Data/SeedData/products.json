@@ -1,143 +1,144 @@
 [{
-        "Name": "Angular Speedster Board 2000",
-        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-        "Price": 200,
+        "Name": "Thuốc B Complex Vidipha 90 viên",
+        "Description": "B complex C bổ dưỡng cơ thể, chống mệt mỏi, suy nhược. Phòng và điều trị các triệu chứng thiếu Vitamin, giúp ăn ngon, sau khi điều trị bằng kháng sinh và Sulfonamide, đang dưỡng bệnh, bổ sung vào chế độ ăn cho người già.",
+        "Price": 600000,
         "PictureUrl": "images/products/thuoc2.jpg",
         "ProductTypeId": 1,
         "ProductBrandId": 1
     },
     {
-        "Name": "Green Angular Board 3000",
-        "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
-        "Price": 150,
+        "Name": "Viên nang bổ sung năng lượng Swiss Energy Active Life (Hộp 30 viên)",
+        "Description": "Viên nang bổ sung năng lượng Swiss Energy Active Life cung cấp năng lượng, giảm căng thẳng mệt mỏi liên tục trong 8h, phù hợp với người có lối sống năng động, hoạt động thế chất cường độ cao. Sản phẩm không chứa caffein, công nghệ tiên tiến của Swiss Energy cho ra viên nang phóng thích chậm giúp tối đa hiệu quả và tính an toàn cho người sử dụng.",
+        "Price": 590000,
         "PictureUrl": "images/products/thuoc1.jpg",
         "ProductTypeId": 1,
         "ProductBrandId": 1
     },
     {
-        "Name": "Core Board Speed Rush 3",
-        "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-        "Price": 180,
+        "Name": "Solgar® B - Complex và Vitamin C 100 viên nén ",
+        "Description": "Solgar® B - complex và Vitamin C: Bổ sung Vitamin C và các Vitamin nhóm B giúp tăng cường sức khỏe.Giúp giảm căng thẳng mệt mỏi,tăng độ bền bỉ cho cơ thể -Hỗ trợ cân bằng chế độ dinh dưỡng ",
+        "Price": 180000,
         "PictureUrl": "images/products/thuoc3.jpg",
         "ProductTypeId": 1,
         "ProductBrandId": 2
     },
     {
-        "Name": "Net Core Super Board",
-        "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-        "Price": 300,
+        "Name": "Thuốc chống dị ứng Fexostad 180 10 viên",
+        "Description": "Fexostad 180 được chỉ định: Giảm các triệu chứng của bệnh viêm mũi dị ứng theo mùa ở người lớn và trẻ em từ 12 tuổi trở len  -Điều trị các triệu chứng ngoài da không biến chứng của bệnh nổi mề đay vô căn mãn tính ở người lớn và trẻ em từ 12 tuổi trở lên. ",
+        "Price": 300000,
         "PictureUrl": "images/products/thuoc8.jpg",
         "ProductTypeId": 1,
         "ProductBrandId": 2
     },
     {
-        "Name": "React Board Super Whizzy Fast",
-        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-        "Price": 250,
+        "Name": "Nước muối sinh lý Vĩnh Phúc Natriclorid 0.9% (500ml)",
+        "Description": "Nước muối sinh lý Vĩnh Phúc Natriclorid 0.9% giúp làm sạch răng, khử mùi hôi khoang miệng đồng thời làm sạch bụi bẩn bám trên da mặt, ngăn ngừa mụn trứng cá.",
+        "Price": 50000,
         "PictureUrl": "images/products/thuoc5.jpg",
         "ProductTypeId": 1,
         "ProductBrandId": 4
     },
     {
-        "Name": "Typescript Entry Board",
-        "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
+        "Name": "Solgar® B - Complex và Vitamin C 100 viên nén",
+        "Description": "Solgar® B - complex và Vitamin C: Bổ sung Vitamin C và các Vitamin nhóm B giúp tăng cường sức khỏe.Giúp giảm căng thẳng mệt mỏi,tăng độ bền bỉ cho cơ thể -Hỗ trợ cân bằng chế độ dinh dưỡng",
         "Price": 120,
         "PictureUrl": "images/products/thuoc4.jpg",
         "ProductTypeId": 1,
         "ProductBrandId": 5
     },
     {
-        "Name": "Core Blue Hat",
-        "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-        "Price": 10,
+        "Name": "Fegra 180 (Hộp 1 vỉ x 10 viên)",
+        "Description": "Điều trị các chứng của viêm mũi dị ứng: Hắt hơi, chảy nước mũi, nghẹt mũi, ngứa mũi, ngứa vòm miệng, họng, mắt ngứa đỏ, chảy nước mắt. Nổi mề đay và mề đay tự phát mạn tính. ",
+        "Price": 200000,
         "PictureUrl": "images/products/thuoc9.jpg",
         "ProductTypeId": 2,
         "ProductBrandId": 2
     },
     {
-        "Name": "Green React Woolen Hat",
-        "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-        "Price": 8,
+        "Name": "Thuốc chống dị ứng Fexostad 180 10 viên",
+        "Description": "Fexostad 180 được chỉ định: Giảm các triệu chứng của bệnh viêm mũi dị ứng theo mùa ở người lớn và trẻ em từ 12 tuổi trở len  -Điều trị các triệu chứng ngoài da không biến chứng của bệnh nổi mề đay vô căn mãn tính ở người lớn và trẻ em từ 12 tuổi trở lên. ",
+        "Price": 120000,
         "PictureUrl": "images/products/thuoc8.jpg",
         "ProductTypeId": 2,
         "ProductBrandId": 4
     },
     {
-        "Name": "Purple React Woolen Hat",
-        "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-        "Price": 15,
+        "Name": "Telfast HD 180mg (1 vỉ x 10 viên/hộp)",
+        "Description": "Người lớn và trẻ em từ 12 tuổi trở lên: Liều khuyên dùng là 1 viên mỗi ngày. Người suy thận: Liều khởi đầu được khuyên dùng là 1 viên fexofenadin 60 mg mỗi ngày Người suy gan: Không cần điều chỉnh liều Người cao tuổi: Không cần điều chỉnh liều, ngoại trừ có suy giảm chức năng thận.Thuốc dùng đường uống với nước và trước bữa ăn.Không uống thuốc với nước hoa quả. ",
+        "Price": 150000,
         "PictureUrl": "images/products/thuoc6.jpg",
         "ProductTypeId": 2,
         "ProductBrandId": 4
     },
     {
-        "Name": "Blue Code Gloves",
-        "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
+        "Name": "Solgar® B - Complex và Vitamin C 100 viên nén ",
+        "Description": "Solgar® B - complex và Vitamin C: Bổ sung Vitamin C và các Vitamin nhóm B giúp tăng cường sức khỏe.Giúp giảm căng thẳng mệt mỏi,tăng độ bền bỉ cho cơ thể -Hỗ trợ cân bằng chế độ dinh dưỡng ",
         "Price": 18,
         "PictureUrl": "images/products/thuoc3.jpg",
         "ProductTypeId": 4,
         "ProductBrandId": 3
     },
     {
-        "Name": "Green Code Gloves",
-        "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+        "Name": "Telfast HD 180mg (1 vỉ x 10 viên/hộp)",
+        "Description": "Người lớn và trẻ em từ 12 tuổi trở lên: Liều khuyên dùng là 1 viên mỗi ngày. Người suy thận: Liều khởi đầu được khuyên dùng là 1 viên fexofenadin 60 mg mỗi ngày Người suy gan: Không cần điều chỉnh liều Người cao tuổi: Không cần điều chỉnh liều, ngoại trừ có suy giảm chức năng thận.Thuốc dùng đường uống với nước và trước bữa ăn.Không uống thuốc với nước hoa quả. ",
         "Price": 15,
         "PictureUrl": "images/products/thuoc4.jpg",
         "ProductTypeId": 4,
         "ProductBrandId": 3
     },
     {
-        "Name": "Purple React Gloves",
-        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
+        "Name": "Thuốc chống dị ứng Fexostad 180 10 viên",
+        "Description": "Người lớn và trẻ em từ 12 tuổi trở lên: Liều khuyên dùng là 1 viên mỗi ngày. Người suy thận: Liều khởi đầu được khuyên dùng là 1 viên fexofenadin 60 mg mỗi ngày Người suy gan: Không cần điều chỉnh liều Người cao tuổi: Không cần điều chỉnh liều, ngoại trừ có suy giảm chức năng thận.Thuốc dùng đường uống với nước và trước bữa ăn.Không uống thuốc với nước hoa quả. ",
         "Price": 16,
         "PictureUrl": "images/products/thuoc10.jpg",
         "ProductTypeId": 4,
         "ProductBrandId": 4
     },
     {
-        "Name": "Green React Gloves",
-        "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+        "Name": "Solgar® B - Complex và Vitamin C 100 viên nén ",
+        "Description": "Solgar® B - complex và Vitamin C: Bổ sung Vitamin C và các Vitamin nhóm B giúp tăng cường sức khỏe.Giúp giảm căng thẳng mệt mỏi,tăng độ bền bỉ cho cơ thể -Hỗ trợ cân bằng chế độ dinh dưỡng ",
         "Price": 14,
         "PictureUrl": "images/products/thuoc9.jpg",
         "ProductTypeId": 4,
         "ProductBrandId": 4
     },
     {
-        "Name": "Redis Red Boots",
-        "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-        "Price": 250,
+
+        "Name": "Thuốc B Complex Vidipha 90 viên",
+        "Description": "B complex C bổ dưỡng cơ thể, chống mệt mỏi, suy nhược. Phòng và điều trị các triệu chứng thiếu Vitamin, giúp ăn ngon, sau khi điều trị bằng kháng sinh và Sulfonamide, đang dưỡng bệnh, bổ sung vào chế độ ăn cho người già.",
+        "Price": 250000,
         "PictureUrl": "images/products/thuoc7.jpg",
         "ProductTypeId": 3,
         "ProductBrandId": 6
     },
     {
-        "Name": "Core Red Boots",
-        "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+        "Name": "Solgar® B - Complex và Vitamin C 100 viên nén ",
+        "Description": "Solgar® B - complex và Vitamin C: Bổ sung Vitamin C và các Vitamin nhóm B giúp tăng cường sức khỏe.Giúp giảm căng thẳng mệt mỏi,tăng độ bền bỉ cho cơ thể -Hỗ trợ cân bằng chế độ dinh dưỡng ",
         "Price": 189.99,
         "PictureUrl": "images/products/thuoc5.jpg",
         "ProductTypeId": 3,
         "ProductBrandId": 2
     },
     {
-        "Name": "Core Purple Boots",
-        "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+        "Name": "Nước muối sinh lý Vĩnh Phúc Natriclorid 0.9% (500ml)",
+        "Description": "Nước muối sinh lý Vĩnh Phúc Natriclorid 0.9% giúp làm sạch răng, khử mùi hôi khoang miệng đồng thời làm sạch bụi bẩn bám trên da mặt, ngăn ngừa mụn trứng cá.",
         "Price": 199.99,
         "PictureUrl": "images/products/thuoc6.jpg",
         "ProductTypeId": 3,
         "ProductBrandId": 2
     },
     {
-        "Name": "Angular Purple Boots",
-        "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-        "Price": 150,
+        "Name": "Viên nang bổ sung năng lượng Swiss Energy Active Life (Hộp 30 viên)",
+        "Description": "Viên nang bổ sung năng lượng Swiss Energy Active Life cung cấp năng lượng, giảm căng thẳng mệt mỏi liên tục trong 8h, phù hợp với người có lối sống năng động, hoạt động thế chất cường độ cao. Sản phẩm không chứa caffein, công nghệ tiên tiến của Swiss Energy cho ra viên nang phóng thích chậm giúp tối đa hiệu quả và tính an toàn cho người sử dụng.",
+        "Price": 130000,
         "PictureUrl": "images/products/thuoc5.jpg",
         "ProductTypeId": 3,
         "ProductBrandId": 1
     },
     {
-        "Name": "Angular Blue Boots",
-        "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-        "Price": 180,
+        "Name": "Thuốc chống dị ứng Fexostad 180 10 viên",
+        "Description": "Người lớn và trẻ em từ 12 tuổi trở lên: Liều khuyên dùng là 1 viên mỗi ngày. Người suy thận: Liều khởi đầu được khuyên dùng là 1 viên fexofenadin 60 mg mỗi ngày Người suy gan: Không cần điều chỉnh liều Người cao tuổi: Không cần điều chỉnh liều, ngoại trừ có suy giảm chức năng thận.Thuốc dùng đường uống với nước và trước bữa ăn.Không uống thuốc với nước hoa quả. ",
+        "Price": 180000,
         "PictureUrl": "images/products/thuoc3.jpg",
         "ProductTypeId": 3,
         "ProductBrandId": 1
