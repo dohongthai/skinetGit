@@ -3,7 +3,7 @@ import { FormGroup } from '@angular/forms';
 import { NavigationExtras, Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
 import { BasketService } from 'src/app/basket/basket.service';
-import { CheckoutService } from 'src/app/checkout.service';
+import { CheckoutService } from '../checkout.service';
 import { IBasket } from 'src/app/shared/models/basket';
 import { IOrder } from 'src/app/shared/models/order';
 

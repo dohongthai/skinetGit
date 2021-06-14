@@ -5,6 +5,8 @@ import { NotFoundComponent } from './core/not-found/not-found.component';
 import { ServerErrorComponent } from './core/server-error/server-error.component';
 import { TestErrorComponent } from './core/test-error/test-error.component';
 import { HomeComponent } from './home/home.component';
+import { OrdersComponent } from './orders/orders.component';
+import { OrdersModule } from './orders/orders.module';
 import { ProductDetailsComponent } from './shop/product-details/product-details.component';
 
 
@@ -23,8 +25,14 @@ const routes: Routes = [
     then(mod => 
       mod.CheckoutModule),data:{breadcrumb:'Thanh Toán'}},
 
+{
+  path:'orders',
+  canActivate:[AuthGuard],
+  loadChildren:() => import('./orders/orders.module')
+  .then(mod => mod.OrdersModule),data:{breadcrumb: 'Orders'}
 
-      {path:'account',loadChildren:()=>import('./account/account.module').
+},
+      {path:'account',canActivate:[AuthGuard],loadChildren:()=>import('./account/account.module').
       then(mod => 
         mod.AccountModule),data:{breadcrumb:{skip:true}}},
   

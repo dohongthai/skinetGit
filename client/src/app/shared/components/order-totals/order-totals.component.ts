@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs';
+import { Component, Input, OnInit } from '@angular/core';
+import { NumberValueAccessor } from '@angular/forms';
+import { Observable, Observer } from 'rxjs';
 import { BasketService } from 'src/app/basket/basket.service';
 import { IBasketTotals } from '../../models/basket';
 
@@ -9,11 +10,18 @@ import { IBasketTotals } from '../../models/basket';
   styleUrls: ['./order-totals.component.css']
 })
 export class OrderTotalsComponent implements OnInit {
-basketTotal$ : Observable<IBasketTotals>;
-  constructor(private basketService:BasketService) { }
+ 
+
+
+@Input() shippingPrice: number;
+@Input() subtotal: number;
+@Input() total: number;
+  
+
+constructor() { }
 
   ngOnInit(): void {
-    this.basketTotal$ =this.basketService.basketTotal$;
+  
   }
 
 }
