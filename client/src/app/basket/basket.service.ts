@@ -103,7 +103,7 @@ getBasket (id : string)
         this.setBasket(basket);
       }else
       {
-        this.deleteBaskte(basket);
+        this.deleteBasket(basket);
       }
     }
     
@@ -115,7 +115,7 @@ getBasket (id : string)
 
   }
 
-  deleteBaskte(basket: IBasket) {
+  deleteBasket(basket: IBasket) {
     return this.http.delete(this.baseUrl + 'basket?id=' +basket.id).subscribe(() =>
     {
       this.basketSource.next(null);

@@ -15,13 +15,13 @@ export class OrdersComponent implements OnInit {
   ngOnInit(): void {
     this.getOrders();
   }
-getOrders() {
-  this.orderService.getOrdersForUser().subscribe((orders:IOrder[])=>{
-  this.orders=orders;
 
+  getOrders() {
+    this.orderService.getOrdersForUser().subscribe((orders: IOrder[]) => {
+      this.orders = orders;
+    }, error => {
+      console.log(error);
+    })
+  }
 
-},error => {
-  console.log(error);
-});
-}
 }

@@ -16,7 +16,8 @@ namespace API.Controllers
     [Authorize]
     public class OrdersController : BaseApiController
     {
-        private readonly IOrderService _orderService;        private readonly IMapper _mapper;
+        private readonly IOrderService _orderService;       
+         private readonly IMapper _mapper;
         public OrdersController(IOrderService orderService, IMapper mapper)
         {
             _mapper = mapper;
@@ -26,10 +27,10 @@ namespace API.Controllers
         [HttpPost]
         public async Task<ActionResult<Order>> CreateOrder(OrderDto orderDto)
         {
-            var email = HttpContext.User.RetrieveEmailFromPrincipal();      
+            var email = HttpContext.User.RetrieveEmailFromPrincipal();    //215  
             var address = _mapper.Map<AddressDto, Address> (orderDto.ShipToAddress);
             var order=await _orderService.CreateOrderAsync(email,orderDto.DeliveryMethodId,orderDto.BasketId,address);  
-            if (order == null ) return BadRequest(new ApiResponse(400, "Xảy ra vấn đề khi tạo mới order"));
+            if (order == null ) return BadRequest(new ApiResponse(400, "xảy ra vấn đề khi tạo mới order"));
             return Ok(order);
              }
 
@@ -37,8 +38,9 @@ namespace API.Controllers
              public async Task<ActionResult<IReadOnlyList<OrderDto>>> GetOrderForUser()
              {
                  var email =HttpContext.User.RetrieveEmailFromPrincipal();
-                 var orders =await _orderService.GetOrderForUserAsync(email);
-                 return Ok(_mapper.Map<IReadOnlyList<Order>,IReadOnlyList<OrderToReturnDto>>(orders));
+                 var orders =await _orderService.GetOrdersForUserAsync(email);
+                 var orderToReturn= _mapper.Map<IReadOnlyList<Order>,IReadOnlyList<OrderToReturnDto>>(orders);
+                 return Ok(orderToReturn);
              }
 
              [HttpGet ("{id}")]

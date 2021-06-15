@@ -29,7 +29,7 @@ namespace Infrastructure.Services
             var items = new List<OrderItem>();
             foreach (var item in basket.Items)
             {
-                var productItem = await _unitOfWork.Repository<Product>().GetByIdAsync(item.Id);
+                var productItem = await _unitOfWork.Repository<Product>().GetByIdAsync(item.Id); 
                 var itemOrdered = new ProductItemOrdered(productItem.Id, productItem.Name, productItem.PictureUrl);
                 var orderItem = new OrderItem(itemOrdered, productItem.Price, item.Quantity);
                 items.Add(orderItem);
@@ -41,12 +41,13 @@ namespace Infrastructure.Services
             var subtotal = items.Sum(item => item.Price * item.Quantity);
             //createorder
             var order = new Order(items, buyerEmail, shippingAddress, deliveryMethod, subtotal);
-_unitOfWork.Repository<Order>().Add(order);
+            _unitOfWork.Repository<Order>().Add(order);
             //save to db
-var result= await _unitOfWork.Complete();
-if (result<= 0) return null;
-//delete basket
-        await _basketRepo.DeleteBasketAsync(basketId);
+         var result = await _unitOfWork.Complete();
+
+            if (result <= 0) return null;
+            //delete basket
+                await _basketRepo.DeleteBasketAsync(basketId);
 
             //reurn order
             return order;
@@ -65,7 +66,7 @@ if (result<= 0) return null;
             return await _unitOfWork.Repository<Order>().GetEntityWithSpec(spec);
         }
 
-        public async Task<IReadOnlyList<Order>> GetOrderForUserAsync(string buyerEmail)
+        public async Task<IReadOnlyList<Order>> GetOrdersForUserAsync(string buyerEmail)
         {
             var spec = new OrdersWithItemsandOrderingSpecification(buyerEmail);
             return await _unitOfWork.Repository<Order>().ListAsync(spec);
